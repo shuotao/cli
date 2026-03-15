@@ -1,50 +1,45 @@
-# Rust
-/target/
-**/*.rs.bk
-bin/
-lcov.info
 
-
-.emails/
-
-# Node
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm
-
-# Build outputs
-/dist/
-*.tsbuildinfo
-/bin/gws-native*
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS
 .DS_Store
-Thumbs.db
-
-# Environment
+.emails/
 .env
-.env.local
 .env.*.local
-
-# Test artifacts
-*.log
-coverage/
+.env.local
+.idea/
+.npm
 .nyc_output/
+.vscode/
+*.enc
+*.log
+*.swo
+*.swp
+*.tsbuildinfo
+**/*.rs.bk
+*~
+/bin/gws-native*
+/dist/
+/target/
+# Build outputs
+# Environment
+# Generated
+# IDE
+# Node
+# OS
+# Plans (local design docs)
+# Rust
+# Test artifacts
+bin/
+client_secret*.json
+coverage/
+credentials*.json
+demo.mp4
+docs/plans/
+download.html.env
 download.txt
 files.jsonl
-
-# Plans (local design docs)
-docs/plans/
-
-# Generated
-demo.mp4
-download.html
+lcov.info
+node_modules/
+npm-debug.log*
+Thumbs.db
+token_cache.json
+yarn-debug.log*
+yarn-error.log*
